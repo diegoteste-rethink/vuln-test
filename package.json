@@ -1,0 +1,16 @@
+{
+  "name": "vulnerable-node-app",
+  "version": "1.0.0",
+  "description": "A Node.js app with known vulnerabilities for testing Snyk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.20",  // Known vulnerability in this version
+    "mongoose": "5.9.7"   // Known vulnerability in this version
+  },
+  "author": "",
+  "license": "ISC"
+}
